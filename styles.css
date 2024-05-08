@@ -1,9 +1,10 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+  font-weight: 150;
+}
+
 :root {
-  @font-face {
-    font-family: "Figtree";
-    src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
-    font-weight: 150;
-  }
   --yellow: hsl(47, 88%, 63%);
   --black: hsl(0, 0%, 7%);
   --gray: hsl(0, 0%, 50%);
