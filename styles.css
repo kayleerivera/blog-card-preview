@@ -60,6 +60,12 @@ main {
 .author {
   display: flex;
   gap: 12px;
+  align-items: center;
+}
+
+#avatar {
+  height: 32px;
+  width: 32px;
 }
 
 .heading {
