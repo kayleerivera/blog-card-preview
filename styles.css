@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Figtree";
-  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+  src: url("/assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
   font-weight: 150;
 }
 
@@ -22,6 +22,9 @@
 
 main {
   background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
