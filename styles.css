@@ -1,0 +1,84 @@
+:root {
+  @font-face {
+    font-family: Figtree;
+    src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+    font-weight: 150;
+  }
+  --yellow: hsl(47, 88%, 63%);
+  --black: hsl(0, 0%, 7%);
+  --gray: hsl(0, 0%, 50%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: hidden;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+main {
+  @font-face {
+    font-family: Figtree;
+    src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+    font-weight: 150;
+  }
+  background-color: var(--yellow);
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  border: solid 1px var(--black);
+  box-shadow: 8px 8px 0px var(--black);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 384px;
+}
+
+.card:hover {
+  box-shadow: 16px 16px 0px var(--black);
+}
+
+img {
+  border-radius: 10px;
+  height: 200px;
+  width: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.author {
+  display: flex;
+  gap: 12px;
+}
+
+.heading {
+  color: var(--black);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.body-m {
+  color: var(--gray);
+  font-size: 16px;
+}
+
+.body-s-bold {
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.body-s {
+  color: var(--black);
+  font-size: 14px;
+}
