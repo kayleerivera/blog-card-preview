@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "Figtree";
-  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
-  font-weight: 150;
-}
-
 :root {
   --yellow: hsl(47, 88%, 63%);
   --black: hsl(0, 0%, 7%);
@@ -21,6 +15,10 @@
 }
 
 main {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   background-color: var(--yellow);
   display: flex;
   align-items: center;
@@ -64,7 +62,7 @@ main {
 .heading {
   color: var(--black);
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .body-m {
@@ -75,7 +73,7 @@ main {
 .body-s-bold {
   color: var(--black);
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .body-s {
