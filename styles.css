@@ -20,11 +20,6 @@
 }
 
 main {
-  @font-face {
-    font-family: Figtree;
-    src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
-    font-weight: 150;
-  }
   background-color: var(--yellow);
 }
 
