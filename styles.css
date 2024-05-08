@@ -1,6 +1,6 @@
 :root {
   @font-face {
-    font-family: Figtree;
+    font-family: "Figtree";
     src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
     font-weight: 150;
   }
@@ -39,7 +39,7 @@ main {
   box-shadow: 16px 16px 0px var(--black);
 }
 
-img {
+.card img {
   border-radius: 10px;
   height: 200px;
   width: auto;
