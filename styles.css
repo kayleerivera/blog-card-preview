@@ -39,7 +39,7 @@ main {
   box-shadow: 16px 16px 0px var(--black);
 }
 
-.card img {
+.card > img {
   border-radius: 10px;
   height: 200px;
   width: auto;
