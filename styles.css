@@ -42,8 +42,11 @@ main {
   box-shadow: 16px 16px 0px var(--black);
 }
 
-.card > img {
+#thumbnail {
   border-radius: 10px;
+  background-image: url("./assets/images/illustration-article.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 200px;
   width: auto;
 }
