@@ -42,6 +42,10 @@ main {
   box-shadow: 16px 16px 0px var(--black);
 }
 
+.card:hover > .heading {
+  color: var(--yellow);
+}
+
 #thumbnail {
   border-radius: 10px;
   background-image: url("./assets/images/illustration-article.svg");
@@ -88,4 +92,10 @@ main {
 .body-s {
   color: var(--black);
   font-size: 14px;
+}
+
+#category {
+  background-color: var(--yellow);
+  border-radius: 4px;
+  padding: 4px 12px 4px 12px;
 }
