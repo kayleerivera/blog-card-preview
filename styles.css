@@ -14,6 +14,12 @@
   color: hsl(228, 45%, 44%);
 }
 
+body {
+  background-color: var(--yellow);
+  height: 100%;
+  overflow: hidden;
+}
+
 main {
   font-family: "Figtree", sans-serif;
   font-optical-sizing: auto;
@@ -23,7 +29,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
+  overflow: hidden;
 }
 
 .card {
@@ -59,6 +66,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  align-items: flex-start;
 }
 
 .author {
