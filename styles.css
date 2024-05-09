@@ -42,7 +42,7 @@ main {
   box-shadow: 16px 16px 0px var(--black);
 }
 
-.card:hover > .heading {
+.card:hover .heading {
   color: var(--yellow);
 }
 
